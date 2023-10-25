@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="LSC16">
-  <xacro:macro name="LSC16" params="*origin parent:=base_link name:=velodyne">
+  <xacro:macro name="LSC16" params="*origin parent:=base_link name:=lslidar">
 
     <joint name="${name}_base_mount_joint" type="fixed">
       <xacro:insert_block name="origin" /> 

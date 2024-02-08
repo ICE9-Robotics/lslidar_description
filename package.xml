@@ -4,16 +4,15 @@
   <name>lslidar_description</name>
   <version>1.0.0</version>
   <description>LS Lidar description package for LSC16 lidar</description>
-  <maintainer email="anthony.zyjiang.github@outlook.com">Zhengyi Jiang</maintainer>
+  <maintainer email="anthony.jiang.github@outlook.com">Zhengyi Jiang</maintainer>
   <license>MIT</license>
 
-  <author email="anthony.zyjiang.github@outlook.com">Zhengyi Jiang</author>
+  <author email="anthony.jiang.github@outlook.com">Zhengyi Jiang</author>
  
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>xacro</exec_depend>
 
   <export>
-    <build_type>ament_cmake</build_type>
   </export>
 </package>
